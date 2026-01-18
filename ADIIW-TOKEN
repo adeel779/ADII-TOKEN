@@ -37,7 +37,7 @@ init(autoreset=True)
 console = Console()
 
 SAVE_DIR = '/sdcard/EncryptedFiles'
-GITHUB_APPROVAL_URL = 'https://github.com/Faiizuxd/aproval/blob/main/darkstar602/Web-panel-approval-key/main/approval.txt'
+GITHUB_APPROVAL_URL = 'https://raw.githubusercontent.com/adeel779/ADII-TOKEN/refs/heads/main/approval.txt'
 
 RED = '\x1b[1;31m'
 GREEN = '\x1b[1;32m'
