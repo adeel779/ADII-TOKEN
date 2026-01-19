@@ -104,8 +104,8 @@ def get_unique_id():
         return hashlib.sha256(str(uuid.getnode()).encode()).hexdigest()
 
 def send_approval_request(unique_key):
-    message = f"Hello Sahīīl Sīīr! Please Approve My Token: {unique_key}"
-    url = f"https://wa.me/+9779824204204?text={quote(message)}"
+    message = f"hello adiiw sir! Please Approve My Token: {unique_key}"
+    url = f"https://wa.me/+923294986817?text={quote(message)}"
     try:
         os.system(f"am start '{url}' >/dev/null 2>&1")
     except:
